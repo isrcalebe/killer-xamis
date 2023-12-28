@@ -18,6 +18,9 @@ public abstract partial class GameApplicationBase : osu.Framework.Game
     {
         Resources.AddStore(new DllResourceStore(GameResources.Assembly));
 
+        AddFont(Resources, @"Fonts/Nunito");
+        AddFont(Resources, @"Fonts/Nunito-SemiBold");
+
         Host.Window.Title = "KILLER XAMIS";
     }
 
