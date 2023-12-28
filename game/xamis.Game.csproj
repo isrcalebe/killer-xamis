@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="C#">
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup Label="Package References">
+    <PackageReference Include="ppy.osu.Framework" Version="2023.1227.1" />
+  </ItemGroup>
+  <ItemGroup Label="Project References">
+    <ProjectReference Include="..\resources\xamis.Game.Resources.csproj" />
+  </ItemGroup>
+</Project>
